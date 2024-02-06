@@ -4,9 +4,10 @@ const submitHadular = (e) => {
 
     // We can get the any form field value Using "class" or "id" or "name"
     var firstName = document.getElementsByClassName('first_name').value;
+    debugger
     const lastName = document.getElementById("last_name").value;
 
-
+    debugger
     let gender;
     var genderRadios = document.getElementsByName('gender');
 

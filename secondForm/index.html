@@ -9,7 +9,56 @@
 </head>
 
 <body>
-
+    <div class="form">
+        <div>
+            <h1>YourOrganization</h1>
+        </div>
+        <div>
+            <h2>Community Service Hours Form</h2>
+        </div>
+        <form action="#" onsubmit="submitHadular(event)">
+            <div class="section-1">
+                <div class="sub">
+                    <label for="First Name" style="margin-bottom: 10px; margin-left: -112px;">First Name </label>
+                    <input type="text" id="first-name" class="first-name" placeholder="First Name" required />
+                </div>
+                <div class="sub">
+                    <label for="Last Name" style="margin-bottom: 10px; margin-left: -112px;">Last Name</label>
+                    <input type="text" id="last-name" class="last-name" placeholder="Last Name" required />
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="sub">
+                    <label for="Case Number" style="margin-bottom: 10px; margin-left: -90px;">Case Number</label>
+                    <select name="case-number" id="case-number" class="case-number">
+                        <option value="">Case Number </option>
+                        <option value="fever">1</option>
+                        <option value="HIV">2</option>
+                        <option value="cancer">3</option>
+                    </select>
+                </div>
+                <div class="sub">
+                    <label for="Number Of Hours Assigned" style="margin-bottom: 10px; margin-left: 1px;">Number Of
+                        Hours Assigned</label>
+                    <select name="number-hours" id="number-hours" class="number-hours">
+                        <option value="">Number Of Hours Assigned </option>
+                        <option value="fever">3hours</option>
+                        <option value="HIV">5hours</option>
+                        <option value="cancer">7hours</option>
+                    </select>
+                </div>
+            </div>
+            <div class="section-3">
+                <label for="Placement Agency">Placement Agency</label>
+                <input type="text" id="placement-agency" class="placement-agency" placeholder="Placement-Agency"
+                    required />
+            </div>
+            <div style="margin-top: 30px; font-size: 60px;">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="../secondForm/index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,52 @@
+.form {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    background-color: #f7ede8;
+    width: 45%;
+    height: 60px;
+    margin-left: 372px;
+    padding-top: 28px;
+    padding-bottom: 0px;
+}
+
+.section-1 {
+    display: flex;
+    text-align: center;
+    margin-left: 428px;
+    gap: 50px;
+}
+
+.section-2 {
+    display: flex;
+    text-align: center;
+    margin-left: 428px;
+    margin-top: 30px;
+    gap: 56px;
+}
+
+.section-3 {
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+input {
+    width: 190px;
+    height: 30px;
+}
+
+select {
+    width: 196px;
+    height: 36px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+}
