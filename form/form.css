@@ -1,0 +1,54 @@
+.form {
+    /* text-align: center; */
+    margin-left: 95px;
+    /* font-family: sans-serif; */
+}
+
+input {
+    width: 250px;
+    color: red;
+    height: 23px;
+}
+
+p {
+    color: red;
+    margin: 7px 33px;
+}
+
+.warning {
+    margin-left: -31px;
+}
+
+.valid {
+    margin-top: 25px;
+    margin-left: -42px;
+}
+
+.success {
+    margin-left: -28px;
+}
+
+.warning-1 {
+    margin-top: 25px;
+    margin-left: -31px;
+}
+
+.fail-1 {
+    margin-top: 25px;
+    margin-left: -2px;
+}
+
+.Success-1 {
+    margin-left: -27px;
+
+}
+
+.warning-2 {
+    margin-top: 25px;
+    margin-left: -31px;
+}
+
+.error {
+    margin-top: 25px;
+    margin-left: -11px;
+}
